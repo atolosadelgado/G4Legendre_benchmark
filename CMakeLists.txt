@@ -3,6 +3,12 @@
 cmake_minimum_required(VERSION 3.16...3.21)
 project(yours)
 
+#find_package(PkgConfig REQUIRED)
+#pkg_check_modules(GTEST REQUIRED gtest)
+#pkg_check_modules(GTEST_MAIN REQUIRED gtest_main)
+
+find_package(GTest REQUIRED)
+
 find_package(benchmark REQUIRED)
 
 # Find Boost headers (only)
@@ -37,7 +43,9 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 #
 # add_executable(benchmark src/*.cc)
 add_executable(benchmark src/your_file.cc)
-target_link_libraries(benchmark ${Geant4_LIBRARIES} benchmark::benchmark gtest gtest_main)
+target_link_libraries(benchmark ${Geant4_LIBRARIES} benchmark::benchmark)
+#target_link_libraries(benchmark ${GTEST_LIBRARY} ${GTEST_MAIN_LIBRARY})
+target_link_libraries(benchmark GTest::GTest GTest::Main)
 target_include_directories(benchmark PRIVATE ${Boost_INCLUDE_DIRS})
 target_include_directories(benchmark PRIVATE ${Geant4_INCLUDE_DIRS})
 
