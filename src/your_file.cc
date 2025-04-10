@@ -28,7 +28,7 @@ static const std::vector<double> inputs = GenerateRandomInputs(ninputs);
 
 
 //___________________________________________________________________________________________________
-static void BM_STD(benchmark::State& state) {
+static void BM_STL(benchmark::State& state) {
     int order = state.range(0);
     double sum = 0.0;
     for (auto _ : state) {
@@ -38,7 +38,7 @@ static void BM_STD(benchmark::State& state) {
     }
     benchmark::DoNotOptimize(sum);
 }
-BENCHMARK(BM_STD)->Iterations(niterations)->DenseRange(norder_min, norder_max); // Includes 10
+BENCHMARK(BM_STL)->Iterations(niterations)->DenseRange(norder_min, norder_max); // Includes 10
 
 //___________________________________________________________________________________________________
 #include <boost/math/special_functions/legendre.hpp>
