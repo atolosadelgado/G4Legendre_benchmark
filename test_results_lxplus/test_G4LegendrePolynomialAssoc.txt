@@ -1,0 +1,224 @@
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LegendreAssociatedTest
+[ RUN      ] LegendreAssociatedTest.G4LegendrePolynomialAssoc_vs_STLAssoc
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 3.2225919072154651e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = 0.9999986225055717 (G4LegendrePolynomial: 7.9694251198247912e-10, STL: 7.969450802112451e-10, rel_diff: 3.2225919072154651e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 0.00011894684435711507 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = -0.99999971184235315 (G4LegendrePolynomial: 3.4878766541623918e-11, STL: 3.4874618315827091e-11, rel_diff: 0.00011894684435711507)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 1.4564974510485398e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = 0.99999834544841737 (G4LegendrePolynomial: 1.1497636176471815e-09, STL: 1.149765292277399e-09, rel_diff: 1.4564974510485398e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 1.7039055089205946e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = 0.99999834975670066 (G4LegendrePolynomial: 1.1437834013250381e-09, STL: 1.1437853502271974e-09, rel_diff: 1.7039055089205946e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 1.3840794697900242e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = 0.99999713567927651 (G4LegendrePolynomial: 3.4458053077557338e-09, STL: 3.4458100770307182e-09, rel_diff: 1.3840794697900242e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 9.8978142678954812e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = 0.99999969244192899 (G4LegendrePolynomial: 3.9728220713186602e-11, STL: 3.9728613939628497e-11, rel_diff: 9.8978142678954812e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 1.5624716499028262e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = -0.9999975983990782 (G4LegendrePolynomial: 2.4224189321131462e-09, STL: 2.4224227170799657e-09, rel_diff: 1.5624716499028262e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 0.00034411657307117227 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = 0.99999983586165175 (G4LegendrePolynomial: 1.1319278847565784e-11, STL: 1.1315385036044199e-11, rel_diff: 0.00034411657307117227)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 0.0001732156669319543 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = 0.9999998249358133 (G4LegendrePolynomial: 1.2869705301454815e-11, STL: 1.2871934922247076e-11, rel_diff: 0.0001732156669319543)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 1.5134796790464605e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = -0.99999734381686434 (G4LegendrePolynomial: 2.9632263309764539e-09, STL: 2.9632218462004052e-09, rel_diff: 1.5134796790464605e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 2.4285328709600502e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = -0.99999833390853898 (G4LegendrePolynomial: 1.1658624066157586e-09, STL: 1.1658595752874571e-09, rel_diff: 2.4285328709600502e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 2.6784985987803038e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = -0.99999813246942071 (G4LegendrePolynomial: 1.464814936014136e-09, STL: 1.4648188595293988e-09, rel_diff: 2.6784985987803038e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 4.5145740318478345e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = 0.99999861065738482 (G4LegendrePolynomial: 8.1070983259934337e-10, STL: 8.1071349262542445e-10, rel_diff: 4.5145740318478345e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 3.8784620178938349e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = -0.99999879149759507 (G4LegendrePolynomial: 6.1339766599388668e-10, STL: 6.1340004504266315e-10, rel_diff: 3.8784620178938349e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 1.6881128238605368e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = -0.99999768215817242 (G4LegendrePolynomial: 2.2563950707876756e-09, STL: 2.2563988798435605e-09, rel_diff: 1.6881128238605368e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 1.9550354020356715e-05 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = 0.99999938651937414 (G4LegendrePolynomial: 1.5807355424612979e-10, STL: 1.5807046391260013e-10, rel_diff: 1.9550354020356715e-05)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 1.0157042363675413e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = 0.99999724842244175 (G4LegendrePolynomial: 3.1798896849011271e-09, STL: 3.1798864550769835e-09, rel_diff: 1.0157042363675413e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 1.030341822739903e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = -0.99999683475907397 (G4LegendrePolynomial: 4.2078573958548304e-09, STL: 4.2078617313907566e-09, rel_diff: 1.030341822739903e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 1.543061980362906e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = 0.99999743084589321 (G4LegendrePolynomial: 2.7722207862623804e-09, STL: 2.7722250639774777e-09, rel_diff: 1.543061980362906e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 2.9479238250508598e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = -0.99999901116267376 (G4LegendrePolynomial: 4.1067649281245622e-10, STL: 4.1067528217300754e-10, rel_diff: 2.9479238250508598e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 4.6530453277519568e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = -0.99999835662157555 (G4LegendrePolynomial: 1.1342943251335669e-09, STL: 1.1342890472352153e-09, rel_diff: 4.6530453277519568e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 3.8943447745763569e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = -0.99999847875087777 (G4LegendrePolynomial: 9.7196584114556117e-10, STL: 9.7196205599020734e-10, rel_diff: 3.8943447745763569e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 4.2426997638219728e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = -0.99999928300142327 (G4LegendrePolynomial: 2.1591728405212507e-10, STL: 2.1591636798380162e-10, rel_diff: 4.2426997638219728e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 4.5585429662240748e-05 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = -0.99999982125960274 (G4LegendrePolynomial: 1.3417600364107329e-11, STL: 1.3418212039068429e-11, rel_diff: 4.5585429662240748e-05)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 4.1270910262373299e-05 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = -0.99999964812991526 (G4LegendrePolynomial: 5.2003401584954645e-11, STL: 5.200125544580761e-11, rel_diff: 4.1270910262373299e-05)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 6.8173832727558393e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = 0.99999858366838867 (G4LegendrePolynomial: 8.4251106091670636e-10, STL: 8.4251680467667757e-10, rel_diff: 6.8173832727558393e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 6.4313570114320491e-05 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = 0.99999969376465359 (G4LegendrePolynomial: 3.9390157802188241e-11, STL: 3.93876246434291e-11, rel_diff: 6.4313570114320491e-05)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 1.8621306484251048e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = -0.99999788467374506 (G4LegendrePolynomial: 1.8793266942651599e-09, STL: 1.8793301938235123e-09, rel_diff: 1.8621306484251048e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 3.2773777834457995e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = 0.99999803747678073 (G4LegendrePolynomial: 1.6176310291271534e-09, STL: 1.617625727556532e-09, rel_diff: 3.2773777834457995e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 2.7251467047727464e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = 0.99999871205217783 (G4LegendrePolynomial: 6.9670103020058605e-10, STL: 6.9669913159324337e-10, rel_diff: 2.7251467047727464e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 2.3133196597515954e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = 0.99999874646110443 (G4LegendrePolynomial: 6.5996874631935043e-10, STL: 6.5997027304155791e-10, rel_diff: 2.3133196597515954e-06)
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 2.4410796162155889e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = -0.99999776078155733 (G4LegendrePolynomial: 2.1059221033681297e-09, STL: 2.1059169626571587e-09, rel_diff: 2.4410796162155889e-06)
+
+[  FAILED  ] LegendreAssociatedTest.G4LegendrePolynomialAssoc_vs_STLAssoc (947247 ms)
+[----------] 1 test from LegendreAssociatedTest (947247 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (947247 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] LegendreAssociatedTest.G4LegendrePolynomialAssoc_vs_STLAssoc
+
+ 1 FAILED TEST
+2025-04-11T15:35:36+02:00
+Running ./build/test_G4LegendrePolynomialAssoc
+Run on (16 X 2750 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x16)
+  L1 Instruction 32 KiB (x16)
+  L2 Unified 1024 KiB (x16)
+  L3 Unified 32768 KiB (x16)
+Load Average: 6.25, 5.12, 4.93
+----------------------------------------------------------------------------------------
+Benchmark                                              Time             CPU   Iterations
+----------------------------------------------------------------------------------------
+BM_STL_assoc/1/iterations:1                     51827782 ns     51661893 ns            1
+BM_STL_assoc/2/iterations:1                    119341217 ns    118839771 ns            1
+BM_STL_assoc/3/iterations:1                    210413658 ns    210142241 ns            1
+BM_STL_assoc/4/iterations:1                    332589999 ns    332179560 ns            1
+BM_STL_assoc/5/iterations:1                    475026692 ns    474804482 ns            1
+BM_STL_assoc/6/iterations:1                    698132254 ns    697697029 ns            1
+BM_STL_assoc/7/iterations:1                    991448515 ns    991319839 ns            1
+BM_STL_assoc/8/iterations:1                   1231972783 ns   1231703707 ns            1
+BM_STL_assoc/9/iterations:1                   1671104074 ns   1670640974 ns            1
+BM_STL_assoc/10/iterations:1                  2109364183 ns   2108737280 ns            1
+BM_STL_assoc/11/iterations:1                  2564368714 ns   2563860728 ns            1
+BM_STL_assoc/12/iterations:1                  3118397434 ns   3117574997 ns            1
+BM_STL_assoc/13/iterations:1                  3589333838 ns   3588601981 ns            1
+BM_STL_assoc/14/iterations:1                  4380892567 ns   4379794947 ns            1
+BM_STL_assoc/15/iterations:1                  5333807316 ns   5282482633 ns            1
+BM_STL_assoc/16/iterations:1                  5878633607 ns   5873108320 ns            1
+BM_STL_assoc/17/iterations:1                  6754603884 ns   6745570853 ns            1
+BM_STL_assoc/18/iterations:1                  7884100154 ns   7808044679 ns            1
+BM_STL_assoc/19/iterations:1                  8904143037 ns   8759692609 ns            1
+BM_STL_assoc/20/iterations:1                  1.0109e+10 ns   9866062026 ns            1
+BM_STL_assoc/21/iterations:1                  1.1128e+10 ns   1.0951e+10 ns            1
+BM_STL_assoc/22/iterations:1                  1.2057e+10 ns   1.1911e+10 ns            1
+BM_STL_assoc/23/iterations:1                  1.3501e+10 ns   1.3231e+10 ns            1
+BM_STL_assoc/24/iterations:1                  1.4298e+10 ns   1.4194e+10 ns            1
+BM_STL_assoc/25/iterations:1                  1.5802e+10 ns   1.5528e+10 ns            1
+BM_STL_assoc/26/iterations:1                  1.7337e+10 ns   1.6816e+10 ns            1
+BM_STL_assoc/27/iterations:1                  1.8450e+10 ns   1.8031e+10 ns            1
+BM_STL_assoc/28/iterations:1                  1.9152e+10 ns   1.8824e+10 ns            1
+BM_STL_assoc/29/iterations:1                  2.1522e+10 ns   2.1104e+10 ns            1
+BM_STL_assoc/30/iterations:1                  2.2944e+10 ns   2.2494e+10 ns            1
+BM_STL_assoc/31/iterations:1                  2.4058e+10 ns   2.3839e+10 ns            1
+BM_STL_assoc/32/iterations:1                  2.6623e+10 ns   2.6235e+10 ns            1
+BM_STL_assoc/33/iterations:1                  2.8973e+10 ns   2.8606e+10 ns            1
+BM_STL_assoc/34/iterations:1                  3.0437e+10 ns   2.9955e+10 ns            1
+BM_STL_assoc/35/iterations:1                  3.2358e+10 ns   3.1991e+10 ns            1
+BM_G4LegendrePolynomial_assoc/1/iterations:1   145036438 ns    142801745 ns            1
+BM_G4LegendrePolynomial_assoc/2/iterations:1   258069842 ns    256601111 ns            1
+BM_G4LegendrePolynomial_assoc/3/iterations:1   351224416 ns    350851856 ns            1
+BM_G4LegendrePolynomial_assoc/4/iterations:1   440222502 ns    430464969 ns            1
+BM_G4LegendrePolynomial_assoc/5/iterations:1  2071765128 ns   2035208730 ns            1
+BM_G4LegendrePolynomial_assoc/6/iterations:1  2660124774 ns   2646896990 ns            1
+BM_G4LegendrePolynomial_assoc/7/iterations:1  3234821155 ns   3219815552 ns            1
+BM_G4LegendrePolynomial_assoc/8/iterations:1  3767777081 ns   3712299026 ns            1
+BM_G4LegendrePolynomial_assoc/9/iterations:1  4603797738 ns   4500191407 ns            1
+BM_G4LegendrePolynomial_assoc/10/iterations:1 5422651971 ns   5360726181 ns            1
+BM_G4LegendrePolynomial_assoc/11/iterations:1 6291854215 ns   6264734605 ns            1
+BM_G4LegendrePolynomial_assoc/12/iterations:1 7191005599 ns   7139882797 ns            1
+BM_G4LegendrePolynomial_assoc/13/iterations:1 7722383922 ns   7703107906 ns            1
+BM_G4LegendrePolynomial_assoc/14/iterations:1 8872990854 ns   8761613216 ns            1
+BM_G4LegendrePolynomial_assoc/15/iterations:1 1.0124e+10 ns   1.0020e+10 ns            1
+BM_G4LegendrePolynomial_assoc/16/iterations:1 1.0830e+10 ns   1.0823e+10 ns            1
+BM_G4LegendrePolynomial_assoc/17/iterations:1 1.2059e+10 ns   1.1920e+10 ns            1
+BM_G4LegendrePolynomial_assoc/18/iterations:1 1.3781e+10 ns   1.3460e+10 ns            1
+BM_G4LegendrePolynomial_assoc/19/iterations:1 1.4625e+10 ns   1.4301e+10 ns            1
+BM_G4LegendrePolynomial_assoc/20/iterations:1 1.6193e+10 ns   1.6006e+10 ns            1
+BM_G4LegendrePolynomial_assoc/21/iterations:1 1.7131e+10 ns   1.7038e+10 ns            1
+BM_G4LegendrePolynomial_assoc/22/iterations:1 1.9097e+10 ns   1.8883e+10 ns            1
+BM_G4LegendrePolynomial_assoc/23/iterations:1 2.0330e+10 ns   2.0142e+10 ns            1
+BM_G4LegendrePolynomial_assoc/24/iterations:1 2.2052e+10 ns   2.1868e+10 ns            1
+BM_G4LegendrePolynomial_assoc/25/iterations:1 2.3057e+10 ns   2.2875e+10 ns            1
+BM_G4LegendrePolynomial_assoc/26/iterations:1 2.4640e+10 ns   2.4525e+10 ns            1
+BM_G4LegendrePolynomial_assoc/27/iterations:1 2.6013e+10 ns   2.5980e+10 ns            1
+BM_G4LegendrePolynomial_assoc/28/iterations:1 2.7524e+10 ns   2.7480e+10 ns            1
+BM_G4LegendrePolynomial_assoc/29/iterations:1 2.9010e+10 ns   2.8982e+10 ns            1
+BM_G4LegendrePolynomial_assoc/30/iterations:1 3.1046e+10 ns   3.1027e+10 ns            1
+BM_G4LegendrePolynomial_assoc/31/iterations:1 3.2685e+10 ns   3.2662e+10 ns            1
+BM_G4LegendrePolynomial_assoc/32/iterations:1 3.5048e+10 ns   3.5021e+10 ns            1
+BM_G4LegendrePolynomial_assoc/33/iterations:1 3.7367e+10 ns   3.7355e+10 ns            1
+BM_G4LegendrePolynomial_assoc/34/iterations:1 3.9118e+10 ns   3.9106e+10 ns            1
+BM_G4LegendrePolynomial_assoc/35/iterations:1 4.1202e+10 ns   4.1144e+10 ns            1

@@ -1,0 +1,92 @@
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LegendreTest
+[ RUN      ] LegendreTest.CLHEP_vs_STL
+[       OK ] LegendreTest.CLHEP_vs_STL (5604 ms)
+[----------] 1 test from LegendreTest (5604 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5604 ms total)
+[  PASSED  ] 1 test.
+2025-04-11T12:09:04+02:00
+Running ./build/test_CLHEP
+Run on (8 X 3830.2 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x4)
+  L1 Instruction 32 KiB (x4)
+  L2 Unified 1280 KiB (x4)
+  L3 Unified 8192 KiB (x1)
+Load Average: 1.30, 1.48, 1.53
+-----------------------------------------------------------------------
+Benchmark                             Time             CPU   Iterations
+-----------------------------------------------------------------------
+BM_STL/1/iterations:1           1882716 ns      1872635 ns            1
+BM_STL/2/iterations:1           4004402 ns      3992026 ns            1
+BM_STL/3/iterations:1           5799009 ns      5788750 ns            1
+BM_STL/4/iterations:1           7503099 ns      7492881 ns            1
+BM_STL/5/iterations:1           6815033 ns      6805490 ns            1
+BM_STL/6/iterations:1           9046232 ns      9034364 ns            1
+BM_STL/7/iterations:1          11691385 ns     11680057 ns            1
+BM_STL/8/iterations:1          13712560 ns     13701971 ns            1
+BM_STL/9/iterations:1          16990346 ns     16968300 ns            1
+BM_STL/10/iterations:1         22401486 ns     22375959 ns            1
+BM_STL/11/iterations:1         24009788 ns     23989793 ns            1
+BM_STL/12/iterations:1         27566661 ns     27543580 ns            1
+BM_STL/13/iterations:1         31419603 ns     31373219 ns            1
+BM_STL/14/iterations:1         34827411 ns     34793934 ns            1
+BM_STL/15/iterations:1         38408704 ns     38363315 ns            1
+BM_STL/16/iterations:1         43212331 ns     43155184 ns            1
+BM_STL/17/iterations:1         49034974 ns     48973563 ns            1
+BM_STL/18/iterations:1         54703849 ns     54638330 ns            1
+BM_STL/19/iterations:1         59453219 ns     59387443 ns            1
+BM_STL/20/iterations:1         63425599 ns     63362361 ns            1
+BM_STL/21/iterations:1         67525423 ns     67453693 ns            1
+BM_STL/22/iterations:1         72298261 ns     72219895 ns            1
+BM_STL/23/iterations:1         77410809 ns     77324266 ns            1
+BM_STL/24/iterations:1         81664420 ns     81516215 ns            1
+BM_STL/25/iterations:1         83524268 ns     83359359 ns            1
+BM_STL/26/iterations:1         87546326 ns     87373854 ns            1
+BM_STL/27/iterations:1         92660390 ns     92493668 ns            1
+BM_STL/28/iterations:1         97981786 ns     97763288 ns            1
+BM_STL/29/iterations:1        104187695 ns    104009432 ns            1
+BM_STL/30/iterations:1        111214508 ns    110955064 ns            1
+BM_STL/31/iterations:1        118864480 ns    118602337 ns            1
+BM_STL/32/iterations:1        125608547 ns    125373031 ns            1
+BM_STL/33/iterations:1        133452380 ns    133084937 ns            1
+BM_STL/34/iterations:1        136404019 ns    136136987 ns            1
+BM_STL/35/iterations:1        147858103 ns    147524107 ns            1
+BM_CLHEP_Leg/1/iterations:1     3073063 ns      3066348 ns            1
+BM_CLHEP_Leg/2/iterations:1     3243180 ns      3235236 ns            1
+BM_CLHEP_Leg/3/iterations:1     8444840 ns      8337636 ns            1
+BM_CLHEP_Leg/4/iterations:1    11626595 ns     11608636 ns            1
+BM_CLHEP_Leg/5/iterations:1    15209676 ns     15190039 ns            1
+BM_CLHEP_Leg/6/iterations:1    20269116 ns     20027550 ns            1
+BM_CLHEP_Leg/7/iterations:1    24381943 ns     24352245 ns            1
+BM_CLHEP_Leg/8/iterations:1    28925320 ns     28823734 ns            1
+BM_CLHEP_Leg/9/iterations:1    34103791 ns     34010092 ns            1
+BM_CLHEP_Leg/10/iterations:1   38195724 ns     38107037 ns            1
+BM_CLHEP_Leg/11/iterations:1   42497579 ns     42392390 ns            1
+BM_CLHEP_Leg/12/iterations:1   47701289 ns     47577259 ns            1
+BM_CLHEP_Leg/13/iterations:1   50657742 ns     50527776 ns            1
+BM_CLHEP_Leg/14/iterations:1   55534529 ns     55413867 ns            1
+BM_CLHEP_Leg/15/iterations:1   59139040 ns     58975109 ns            1
+BM_CLHEP_Leg/16/iterations:1   63631869 ns     63502376 ns            1
+BM_CLHEP_Leg/17/iterations:1   66812954 ns     66614942 ns            1
+BM_CLHEP_Leg/18/iterations:1   72736034 ns     72607758 ns            1
+BM_CLHEP_Leg/19/iterations:1   78472350 ns     78293644 ns            1
+BM_CLHEP_Leg/20/iterations:1   84811051 ns     84619689 ns            1
+BM_CLHEP_Leg/21/iterations:1   91223324 ns     91029940 ns            1
+BM_CLHEP_Leg/22/iterations:1  103879840 ns    103526641 ns            1
+BM_CLHEP_Leg/23/iterations:1  121978572 ns    121469407 ns            1
+BM_CLHEP_Leg/24/iterations:1  117004788 ns    116678182 ns            1
+BM_CLHEP_Leg/25/iterations:1  118562646 ns    118255290 ns            1
+BM_CLHEP_Leg/26/iterations:1  123535398 ns    123269180 ns            1
+BM_CLHEP_Leg/27/iterations:1  135304444 ns    134925164 ns            1
+BM_CLHEP_Leg/28/iterations:1  146740697 ns    146199334 ns            1
+BM_CLHEP_Leg/29/iterations:1  144373904 ns    144165695 ns            1
+BM_CLHEP_Leg/30/iterations:1  152658795 ns    152436744 ns            1
+BM_CLHEP_Leg/31/iterations:1  160320769 ns    160078009 ns            1
+BM_CLHEP_Leg/32/iterations:1  166127860 ns    165862089 ns            1
+BM_CLHEP_Leg/33/iterations:1  168866802 ns    168699314 ns            1
+BM_CLHEP_Leg/34/iterations:1  175841831 ns    175666307 ns            1
+BM_CLHEP_Leg/35/iterations:1  181431834 ns    181059619 ns            1

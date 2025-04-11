@@ -1,0 +1,212 @@
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LegendreTest
+[ RUN      ] LegendreTest.G4ParticleHPFastLegendre_vs_STL
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 4.5000000001849116e-06 vs 1e-06
+Max difference too large at n = 2
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 1.1786259927926146e-05 vs 1e-06
+Max difference too large at n = 3
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 2.2517526221954576e-05 vs 1e-06
+Max difference too large at n = 4
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 3.6582445037236511e-05 vs 1e-06
+Max difference too large at n = 5
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 5.3505085899296922e-05 vs 1e-06
+Max difference too large at n = 6
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 7.3300190673863952e-05 vs 1e-06
+Max difference too large at n = 7
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 9.6475934656337081e-05 vs 1e-06
+Max difference too large at n = 8
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.00012303843325300878 vs 1e-06
+Max difference too large at n = 9
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.00015199385587827408 vs 1e-06
+Max difference too large at n = 10
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.00018434507584608184 vs 1e-06
+Max difference too large at n = 11
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.0002200957008465787 vs 1e-06
+Max difference too large at n = 12
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.00025825067994200701 vs 1e-06
+Max difference too large at n = 13
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.00029981151033409148 vs 1e-06
+Max difference too large at n = 14
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.00034428205131731282 vs 1e-06
+Max difference too large at n = 15
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.00039166518767275171 vs 1e-06
+Max difference too large at n = 16
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.00044246276772119675 vs 1e-06
+Max difference too large at n = 17
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.00049567966675145847 vs 1e-06
+Max difference too large at n = 18
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.00055231646692233127 vs 1e-06
+Max difference too large at n = 19
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.00061187681032781605 vs 1e-06
+Max difference too large at n = 20
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.00067436351503058489 vs 1e-06
+Max difference too large at n = 21
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.00073977916768486196 vs 1e-06
+Max difference too large at n = 22
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.00080812655200535044 vs 1e-06
+Max difference too large at n = 23
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.00087940813166575982 vs 1e-06
+Max difference too large at n = 24
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.00095362654876629538 vs 1e-06
+Max difference too large at n = 25
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.001030784493045056 vs 1e-06
+Max difference too large at n = 26
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.0011108844273109986 vs 1e-06
+Max difference too large at n = 27
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.0011939289548873466 vs 1e-06
+Max difference too large at n = 28
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.0012799202090749695 vs 1e-06
+Max difference too large at n = 29
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4ParticleHPFastLegendre.hh:43: Failure
+Expected: (max_diff) <= (tolerance), actual: 0.0013688620662577478 vs 1e-06
+Max difference too large at n = 30
+
+[  FAILED  ] LegendreTest.G4ParticleHPFastLegendre_vs_STL (32862 ms)
+[----------] 1 test from LegendreTest (32862 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (32862 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] LegendreTest.G4ParticleHPFastLegendre_vs_STL
+
+ 1 FAILED TEST
+2025-04-11T15:15:46+02:00
+Running ./build/test_G4PHPFastLegendre
+Run on (16 X 2750 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x16)
+  L1 Instruction 32 KiB (x16)
+  L2 Unified 1024 KiB (x16)
+  L3 Unified 32768 KiB (x16)
+Load Average: 4.38, 4.81, 5.09
+-----------------------------------------------------------------------
+Benchmark                             Time             CPU   Iterations
+-----------------------------------------------------------------------
+BM_STL/1/iterations:1          11033041 ns     11030978 ns            1
+BM_STL/2/iterations:1          21808794 ns     21792306 ns            1
+BM_STL/3/iterations:1          36350272 ns     36352230 ns            1
+BM_STL/4/iterations:1          50284440 ns     50286065 ns            1
+BM_STL/5/iterations:1          70819990 ns     70821813 ns            1
+BM_STL/6/iterations:1         101884512 ns    101886548 ns            1
+BM_STL/7/iterations:1         129268755 ns    129262078 ns            1
+BM_STL/8/iterations:1         171546091 ns    171548663 ns            1
+BM_STL/9/iterations:1         220254567 ns    220245270 ns            1
+BM_STL/10/iterations:1        259121743 ns    259124297 ns            1
+BM_STL/11/iterations:1        267171489 ns    267141659 ns            1
+BM_STL/12/iterations:1        323497101 ns    323158154 ns            1
+BM_STL/13/iterations:1        355090183 ns    355085972 ns            1
+BM_STL/14/iterations:1        381527755 ns    381516315 ns            1
+BM_STL/15/iterations:1        445979463 ns    445969243 ns            1
+BM_STL/16/iterations:1        521912293 ns    521113773 ns            1
+BM_STL/17/iterations:1        550441160 ns    550400489 ns            1
+BM_STL/18/iterations:1        584545927 ns    584468732 ns            1
+BM_STL/19/iterations:1        628822215 ns    628815904 ns            1
+BM_STL/20/iterations:1        676169289 ns    675907901 ns            1
+BM_STL/21/iterations:1        705800108 ns    705687310 ns            1
+BM_STL/22/iterations:1        761826229 ns    761419810 ns            1
+BM_STL/23/iterations:1        846360567 ns    845784971 ns            1
+BM_STL/24/iterations:1        900039742 ns    900010316 ns            1
+BM_STL/25/iterations:1        948827819 ns    948770533 ns            1
+BM_STL/26/iterations:1       1000543971 ns   1000446850 ns            1
+BM_STL/27/iterations:1       1054103797 ns   1054043701 ns            1
+BM_STL/28/iterations:1       1129395367 ns   1129346958 ns            1
+BM_STL/29/iterations:1       1192496522 ns   1192303949 ns            1
+BM_STL/30/iterations:1       1255683707 ns   1255623839 ns            1
+BM_STL/31/iterations:1       1314966404 ns   1314587237 ns            1
+BM_STL/32/iterations:1       1398212749 ns   1397457536 ns            1
+BM_STL/33/iterations:1       1508649818 ns   1508107147 ns            1
+BM_STL/34/iterations:1       1532200174 ns   1531699934 ns            1
+BM_STL/35/iterations:1       1578332705 ns   1577975138 ns            1
+BM_G4PHP_Leg/1/iterations:1    27819996 ns     27815690 ns            1
+BM_G4PHP_Leg/2/iterations:1    28502047 ns     28437589 ns            1
+BM_G4PHP_Leg/3/iterations:1    26712643 ns     26713971 ns            1
+BM_G4PHP_Leg/4/iterations:1    26871273 ns     26872721 ns            1
+BM_G4PHP_Leg/5/iterations:1    27154933 ns     27150090 ns            1
+BM_G4PHP_Leg/6/iterations:1    27829475 ns     27823549 ns            1
+BM_G4PHP_Leg/7/iterations:1    28726007 ns     28716618 ns            1
+BM_G4PHP_Leg/8/iterations:1    30443620 ns     30445667 ns            1
+BM_G4PHP_Leg/9/iterations:1    28410366 ns     28397899 ns            1
+BM_G4PHP_Leg/10/iterations:1   31413782 ns     31352916 ns            1
+BM_G4PHP_Leg/11/iterations:1   27231864 ns     27234141 ns            1
+BM_G4PHP_Leg/12/iterations:1   28136496 ns     28110300 ns            1
+BM_G4PHP_Leg/13/iterations:1   29140748 ns     29060589 ns            1
+BM_G4PHP_Leg/14/iterations:1   28848256 ns     28809068 ns            1
+BM_G4PHP_Leg/15/iterations:1   27240454 ns     27193610 ns            1
+BM_G4PHP_Leg/16/iterations:1   28666217 ns     28641098 ns            1
+BM_G4PHP_Leg/17/iterations:1   29780019 ns     29708878 ns            1
+BM_G4PHP_Leg/18/iterations:1   28737846 ns     28706259 ns            1
+BM_G4PHP_Leg/19/iterations:1   27623915 ns     27608109 ns            1
+BM_G4PHP_Leg/20/iterations:1   27833245 ns     27830108 ns            1
+BM_G4PHP_Leg/21/iterations:1   29757419 ns     29649995 ns            1
+BM_G4PHP_Leg/22/iterations:1   27950715 ns     27921289 ns            1
+BM_G4PHP_Leg/23/iterations:1   27070583 ns     27068271 ns            1
+BM_G4PHP_Leg/24/iterations:1   27475276 ns     27477940 ns            1
+BM_G4PHP_Leg/25/iterations:1   27666215 ns     27668629 ns            1
+BM_G4PHP_Leg/26/iterations:1   28493287 ns     28495459 ns            1
+BM_G4PHP_Leg/27/iterations:1   29232418 ns     29227628 ns            1
+BM_G4PHP_Leg/28/iterations:1   27639894 ns     27636020 ns            1
+BM_G4PHP_Leg/29/iterations:1   27757435 ns     27759700 ns            1
+BM_G4PHP_Leg/30/iterations:1   31938904 ns     31941135 ns            1
+BM_G4PHP_Leg/31/iterations:1  754342724 ns    754297026 ns            1
+BM_G4PHP_Leg/32/iterations:1  776771058 ns    776664013 ns            1
+BM_G4PHP_Leg/33/iterations:1  812394269 ns    812315234 ns            1
+BM_G4PHP_Leg/34/iterations:1  840982316 ns    840715026 ns            1
+BM_G4PHP_Leg/35/iterations:1  856734107 ns    856665196 ns            1

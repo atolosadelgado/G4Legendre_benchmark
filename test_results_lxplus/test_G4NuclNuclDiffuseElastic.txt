@@ -1,0 +1,334 @@
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LegendreTest
+[ RUN      ] LegendreTest.G4NuclNuclDiffuseElastic_cos_vs_STL
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 375.98078024450302, which exceeds tolerance, where
+max_difference evaluates to 375.98078024450302,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=7, max difference =375.98078024450302
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 351.63299046470547, which exceeds tolerance, where
+max_difference evaluates to 351.63299046470547,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=8, max difference =351.63299046470547
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 331.46534568098974, which exceeds tolerance, where
+max_difference evaluates to 331.46534568098974,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=9, max difference =331.46534568098974
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 314.40410614089882, which exceeds tolerance, where
+max_difference evaluates to 314.40410614089882,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=10, max difference =314.40410614089882
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 299.72581119408892, which exceeds tolerance, where
+max_difference evaluates to 299.72581119408892,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=11, max difference =299.72581119408892
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 286.9228478397975, which exceeds tolerance, where
+max_difference evaluates to 286.9228478397975,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=12, max difference =286.9228478397975
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 275.62713625919656, which exceeds tolerance, where
+max_difference evaluates to 275.62713625919656,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=13, max difference =275.62713625919656
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 265.56439716336024, which exceeds tolerance, where
+max_difference evaluates to 265.56439716336024,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=14, max difference =265.56439716336024
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 256.52549863231127, which exceeds tolerance, where
+max_difference evaluates to 256.52549863231127,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=15, max difference =256.52549863231127
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 248.34782228892902, which exceeds tolerance, where
+max_difference evaluates to 248.34782228892902,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=16, max difference =248.34782228892902
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 240.90275521618645, which exceeds tolerance, where
+max_difference evaluates to 240.90275521618645,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=17, max difference =240.90275521618645
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 234.08706161246556, which exceeds tolerance, where
+max_difference evaluates to 234.08706161246556,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=18, max difference =234.08706161246556
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 227.81678773902354, which exceeds tolerance, where
+max_difference evaluates to 227.81678773902354,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=19, max difference =227.81678773902354
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 222.02286560679252, which exceeds tolerance, where
+max_difference evaluates to 222.02286560679252,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=20, max difference =222.02286560679252
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 216.64788280349487, which exceeds tolerance, where
+max_difference evaluates to 216.64788280349487,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=21, max difference =216.64788280349487
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 211.64366968562649, which exceeds tolerance, where
+max_difference evaluates to 211.64366968562649,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=22, max difference =211.64366968562649
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 206.96947023631137, which exceeds tolerance, where
+max_difference evaluates to 206.96947023631137,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=23, max difference =206.96947023631137
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 202.59053674542642, which exceeds tolerance, where
+max_difference evaluates to 202.59053674542642,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=24, max difference =202.59053674542642
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 198.47703693923344, which exceeds tolerance, where
+max_difference evaluates to 198.47703693923344,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=25, max difference =198.47703693923344
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 194.60319464591106, which exceeds tolerance, where
+max_difference evaluates to 194.60319464591106,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=26, max difference =194.60319464591106
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 190.94660722154524, which exceeds tolerance, where
+max_difference evaluates to 190.94660722154524,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=27, max difference =190.94660722154524
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 187.48769831408094, which exceeds tolerance, where
+max_difference evaluates to 187.48769831408094,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=28, max difference =187.48769831408094
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 184.20927535397269, which exceeds tolerance, where
+max_difference evaluates to 184.20927535397269,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=29, max difference =184.20927535397269
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 181.09616888095312, which exceeds tolerance, where
+max_difference evaluates to 181.09616888095312,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=30, max difference =181.09616888095312
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 178.13493640180803, which exceeds tolerance, where
+max_difference evaluates to 178.13493640180803,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=31, max difference =178.13493640180803
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 175.31361756350302, which exceeds tolerance, where
+max_difference evaluates to 175.31361756350302,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=32, max difference =175.31361756350302
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 172.62153045362962, which exceeds tolerance, where
+max_difference evaluates to 172.62153045362962,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=33, max difference =172.62153045362962
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 170.04910110494001, which exceeds tolerance, where
+max_difference evaluates to 170.04910110494001,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=34, max difference =170.04910110494001
+
+/tmp/atolosad/G4Legendre_benchmark/include/test_G4NuclNuclDiffuseElastic.hh:63: Failure
+The difference between max_difference and 0.0 is 167.58771999135712, which exceeds tolerance, where
+max_difference evaluates to 167.58771999135712,
+0.0 evaluates to 0, and
+tolerance evaluates to 9.9999999999999995e-07.
+Mismatch at n=35, max difference =167.58771999135712
+
+[  FAILED  ] LegendreTest.G4NuclNuclDiffuseElastic_cos_vs_STL (45744 ms)
+[----------] 1 test from LegendreTest (45744 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (45744 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] LegendreTest.G4NuclNuclDiffuseElastic_cos_vs_STL
+
+ 1 FAILED TEST
+2025-04-11T15:18:51+02:00
+Running ./build/test_G4NuclNuclDiffuseElastic
+Run on (16 X 2750 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x16)
+  L1 Instruction 32 KiB (x16)
+  L2 Unified 1024 KiB (x16)
+  L3 Unified 32768 KiB (x16)
+Load Average: 4.29, 4.53, 4.92
+------------------------------------------------------------------------------------------
+Benchmark                                                Time             CPU   Iterations
+------------------------------------------------------------------------------------------
+BM_G4NuclNuclDiffuseElastic_cos/1/iterations:1   253811442 ns    251541458 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/2/iterations:1   258835953 ns    258535628 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/3/iterations:1   268215461 ns    267609527 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/4/iterations:1   258444022 ns    258362435 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/5/iterations:1   258152672 ns    257993842 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/6/iterations:1   263760813 ns    263554772 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/7/iterations:1   418235459 ns    417893352 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/8/iterations:1   417245836 ns    416899888 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/9/iterations:1   440279332 ns    440043649 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/10/iterations:1  428886359 ns    428692960 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/11/iterations:1  438487199 ns    438311794 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/12/iterations:1  435126281 ns    434935668 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/13/iterations:1  431879176 ns    431537991 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/14/iterations:1  446773904 ns    446611773 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/15/iterations:1  448326468 ns    448041609 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/16/iterations:1  462568846 ns    462152587 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/17/iterations:1  450120791 ns    449450482 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/18/iterations:1  462964387 ns    462716047 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/19/iterations:1  441882635 ns    441200059 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/20/iterations:1  441042924 ns    440848488 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/21/iterations:1  462440546 ns    462109277 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/22/iterations:1  468219026 ns    463698720 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/23/iterations:1  484973069 ns    483618784 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/24/iterations:1  446038043 ns    443159804 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/25/iterations:1  449717521 ns    447913722 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/26/iterations:1  463715739 ns    461694096 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/27/iterations:1  470515812 ns    469783848 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/28/iterations:1  462702045 ns    452912411 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/29/iterations:1  455953742 ns    447714172 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/30/iterations:1  501499033 ns    485064345 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/31/iterations:1  471995164 ns    461921969 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/32/iterations:1  467338885 ns    459897297 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/33/iterations:1  447363856 ns    446930962 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/34/iterations:1  476200084 ns    475697509 ns            1
+BM_G4NuclNuclDiffuseElastic_cos/35/iterations:1  458666769 ns    458288121 ns            1
+BM_STL_cos/1/iterations:1                        167903743 ns    167509526 ns            1
+BM_STL_cos/2/iterations:1                        168381854 ns    168383435 ns            1
+BM_STL_cos/3/iterations:1                        179641937 ns    179511073 ns            1
+BM_STL_cos/4/iterations:1                        190146106 ns    188201135 ns            1
+BM_STL_cos/5/iterations:1                        190533858 ns    190397513 ns            1
+BM_STL_cos/6/iterations:1                        232499700 ns    229994923 ns            1
+BM_STL_cos/7/iterations:1                        230577077 ns    230370658 ns            1
+BM_STL_cos/8/iterations:1                        244715175 ns    244297963 ns            1
+BM_STL_cos/9/iterations:1                        261400899 ns    258722627 ns            1
+BM_STL_cos/10/iterations:1                       314542683 ns    312589306 ns            1
+BM_STL_cos/11/iterations:1                       358946561 ns    351478010 ns            1
+BM_STL_cos/12/iterations:1                       372734198 ns    369195140 ns            1
+BM_STL_cos/13/iterations:1                       407733078 ns    404518164 ns            1
+BM_STL_cos/14/iterations:1                       424570521 ns    421978098 ns            1
+BM_STL_cos/15/iterations:1                       463312477 ns    461126239 ns            1
+BM_STL_cos/16/iterations:1                       492637345 ns    490130273 ns            1
+BM_STL_cos/17/iterations:1                       516237993 ns    513787188 ns            1
+BM_STL_cos/18/iterations:1                       554058927 ns    549307937 ns            1
+BM_STL_cos/19/iterations:1                       594636637 ns    590223399 ns            1
+BM_STL_cos/20/iterations:1                       638039452 ns    634014012 ns            1
+BM_STL_cos/21/iterations:1                       698014452 ns    692143182 ns            1
+BM_STL_cos/22/iterations:1                       732651180 ns    728774566 ns            1
+BM_STL_cos/23/iterations:1                       774635993 ns    771668649 ns            1
+BM_STL_cos/24/iterations:1                       819490273 ns    818536715 ns            1
+BM_STL_cos/25/iterations:1                       842133337 ns    841739890 ns            1
+BM_STL_cos/26/iterations:1                       871502496 ns    870978365 ns            1
+BM_STL_cos/27/iterations:1                       925288003 ns    924748420 ns            1
+BM_STL_cos/28/iterations:1                       980763651 ns    980263563 ns            1
+BM_STL_cos/29/iterations:1                       981647123 ns    980795754 ns            1
+BM_STL_cos/30/iterations:1                      1046848593 ns   1045735791 ns            1
+BM_STL_cos/31/iterations:1                      1067693054 ns   1066489336 ns            1
+BM_STL_cos/32/iterations:1                      1170522628 ns   1168014542 ns            1
+BM_STL_cos/33/iterations:1                      1165051637 ns   1164161763 ns            1
+BM_STL_cos/34/iterations:1                      1259702545 ns   1256946449 ns            1
+BM_STL_cos/35/iterations:1                      1267975931 ns   1263993882 ns            1
+BM_LegTabP_cos/1/iterations:1                    185643418 ns    185510956 ns            1
+BM_LegTabP_cos/2/iterations:1                    184734355 ns    184629238 ns            1
+BM_LegTabP_cos/3/iterations:1                    188248472 ns    188170295 ns            1
+BM_LegTabP_cos/4/iterations:1                    188990044 ns    188876163 ns            1
+BM_LegTabP_cos/5/iterations:1                    206551530 ns    206315475 ns            1
+BM_LegTabP_cos/6/iterations:1                    187603161 ns    187518396 ns            1
+BM_LegTabP_cos/7/iterations:1                    188059613 ns    188061405 ns            1
+BM_LegTabP_cos/8/iterations:1                    202240720 ns    201986922 ns            1
+BM_LegTabP_cos/9/iterations:1                    198131123 ns    197925664 ns            1
+BM_LegTabP_cos/10/iterations:1                   198017262 ns    197176805 ns            1
+BM_LegTabP_cos/11/iterations:1                   351738127 ns    350518197 ns            1
+BM_LegTabP_cos/12/iterations:1                   383133799 ns    382174866 ns            1
+BM_LegTabP_cos/13/iterations:1                   401663916 ns    401157093 ns            1
+BM_LegTabP_cos/14/iterations:1                   440014062 ns    439898137 ns            1
+BM_LegTabP_cos/15/iterations:1                   482277436 ns    481499252 ns            1
+BM_LegTabP_cos/16/iterations:1                   509339749 ns    508715086 ns            1
+BM_LegTabP_cos/17/iterations:1                   531314353 ns    530691503 ns            1
+BM_LegTabP_cos/18/iterations:1                   574127258 ns    573103587 ns            1
+BM_LegTabP_cos/19/iterations:1                   620297809 ns    618697866 ns            1
+BM_LegTabP_cos/20/iterations:1                   692182250 ns    690526024 ns            1
+BM_LegTabP_cos/21/iterations:1                   711952020 ns    711337920 ns            1
+BM_LegTabP_cos/22/iterations:1                   722696471 ns    722067479 ns            1
+BM_LegTabP_cos/23/iterations:1                   759099743 ns    758669003 ns            1
+BM_LegTabP_cos/24/iterations:1                   811115998 ns    809906819 ns            1
+BM_LegTabP_cos/25/iterations:1                   839872352 ns    839513184 ns            1
+BM_LegTabP_cos/26/iterations:1                   944922351 ns    943410902 ns            1
+BM_LegTabP_cos/27/iterations:1                   919087521 ns    918189952 ns            1
+BM_LegTabP_cos/28/iterations:1                   993191977 ns    992514547 ns            1
+BM_LegTabP_cos/29/iterations:1                  1026984923 ns   1025860391 ns            1
+BM_LegTabP_cos/30/iterations:1                  1087519163 ns   1086466434 ns            1
+BM_LegTabP_cos/31/iterations:1                  1074728657 ns   1074210634 ns            1
+BM_LegTabP_cos/32/iterations:1                  1119872857 ns   1119293256 ns            1
+BM_LegTabP_cos/33/iterations:1                  1167486112 ns   1166762885 ns            1
+BM_LegTabP_cos/34/iterations:1                  1191868711 ns   1189642463 ns            1
+BM_LegTabP_cos/35/iterations:1                  1241803630 ns   1240821494 ns            1
