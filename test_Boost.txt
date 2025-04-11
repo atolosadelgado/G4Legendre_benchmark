@@ -1,0 +1,92 @@
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LegendreTest
+[ RUN      ] LegendreTest.Boost_vs_STL
+[       OK ] LegendreTest.Boost_vs_STL (5270 ms)
+[----------] 1 test from LegendreTest (5270 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5270 ms total)
+[  PASSED  ] 1 test.
+2025-04-11T12:09:23+02:00
+Running ./build/test_Boost
+Run on (8 X 400 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x4)
+  L1 Instruction 32 KiB (x4)
+  L2 Unified 1280 KiB (x4)
+  L3 Unified 8192 KiB (x1)
+Load Average: 1.56, 1.53, 1.55
+-------------------------------------------------------------------
+Benchmark                         Time             CPU   Iterations
+-------------------------------------------------------------------
+BM_STL/1/iterations:1       1513237 ns      1505202 ns            1
+BM_STL/2/iterations:1       2249527 ns      2245641 ns            1
+BM_STL/3/iterations:1       3012122 ns      3000837 ns            1
+BM_STL/4/iterations:1       4530980 ns      4524187 ns            1
+BM_STL/5/iterations:1       7004038 ns      6993499 ns            1
+BM_STL/6/iterations:1       9191631 ns      9163739 ns            1
+BM_STL/7/iterations:1      11504721 ns     11494038 ns            1
+BM_STL/8/iterations:1      14761161 ns     14742060 ns            1
+BM_STL/9/iterations:1      18307794 ns     18261324 ns            1
+BM_STL/10/iterations:1     21682168 ns     21654334 ns            1
+BM_STL/11/iterations:1     25124522 ns     25077294 ns            1
+BM_STL/12/iterations:1     29147067 ns     29073822 ns            1
+BM_STL/13/iterations:1     30435244 ns     30401007 ns            1
+BM_STL/14/iterations:1     34214414 ns     34153607 ns            1
+BM_STL/15/iterations:1     37829143 ns     37773907 ns            1
+BM_STL/16/iterations:1     41449953 ns     41403882 ns            1
+BM_STL/17/iterations:1     47085034 ns     47028268 ns            1
+BM_STL/18/iterations:1     52258829 ns     52210785 ns            1
+BM_STL/19/iterations:1     60013746 ns     59922396 ns            1
+BM_STL/20/iterations:1     63341144 ns     63270821 ns            1
+BM_STL/21/iterations:1     69991536 ns     69836009 ns            1
+BM_STL/22/iterations:1     72826374 ns     72730505 ns            1
+BM_STL/23/iterations:1     77843695 ns     77708931 ns            1
+BM_STL/24/iterations:1     80725372 ns     80608767 ns            1
+BM_STL/25/iterations:1     83774561 ns     83674240 ns            1
+BM_STL/26/iterations:1     92344954 ns     92186001 ns            1
+BM_STL/27/iterations:1     94672441 ns     94506942 ns            1
+BM_STL/28/iterations:1    100570903 ns    100435731 ns            1
+BM_STL/29/iterations:1    110466468 ns    110267030 ns            1
+BM_STL/30/iterations:1    111992764 ns    111849987 ns            1
+BM_STL/31/iterations:1    117284748 ns    117159327 ns            1
+BM_STL/32/iterations:1    129205537 ns    129001777 ns            1
+BM_STL/33/iterations:1    130632953 ns    130479074 ns            1
+BM_STL/34/iterations:1    137104037 ns    136922953 ns            1
+BM_STL/35/iterations:1    143961805 ns    143797092 ns            1
+BM_Boost/1/iterations:1     5585796 ns      5580619 ns            1
+BM_Boost/2/iterations:1     6006353 ns      6000177 ns            1
+BM_Boost/3/iterations:1     6664739 ns      6657865 ns            1
+BM_Boost/4/iterations:1     8657860 ns      8647431 ns            1
+BM_Boost/5/iterations:1    11247584 ns     11237475 ns            1
+BM_Boost/6/iterations:1    14488805 ns     14457967 ns            1
+BM_Boost/7/iterations:1    17280899 ns     17266414 ns            1
+BM_Boost/8/iterations:1    20085713 ns     20055771 ns            1
+BM_Boost/9/iterations:1    22239947 ns     22221006 ns            1
+BM_Boost/10/iterations:1   25942699 ns     25911838 ns            1
+BM_Boost/11/iterations:1   31030702 ns     30989136 ns            1
+BM_Boost/12/iterations:1   34918824 ns     34884501 ns            1
+BM_Boost/13/iterations:1   39227022 ns     39180241 ns            1
+BM_Boost/14/iterations:1   44116024 ns     44040103 ns            1
+BM_Boost/15/iterations:1   48562784 ns     48497035 ns            1
+BM_Boost/16/iterations:1   50372898 ns     50303910 ns            1
+BM_Boost/17/iterations:1   53549849 ns     53500079 ns            1
+BM_Boost/18/iterations:1   57251974 ns     57196083 ns            1
+BM_Boost/19/iterations:1   62610770 ns     62507370 ns            1
+BM_Boost/20/iterations:1   64114345 ns     64047674 ns            1
+BM_Boost/21/iterations:1   70422549 ns     70320475 ns            1
+BM_Boost/22/iterations:1   73626547 ns     73512968 ns            1
+BM_Boost/23/iterations:1   74817211 ns     74706187 ns            1
+BM_Boost/24/iterations:1   78558363 ns     78457228 ns            1
+BM_Boost/25/iterations:1   79560542 ns     79473927 ns            1
+BM_Boost/26/iterations:1   84009432 ns     83900206 ns            1
+BM_Boost/27/iterations:1   87276338 ns     87170153 ns            1
+BM_Boost/28/iterations:1   89819907 ns     89738136 ns            1
+BM_Boost/29/iterations:1   93404375 ns     93303125 ns            1
+BM_Boost/30/iterations:1   99872468 ns     99752878 ns            1
+BM_Boost/31/iterations:1  106401783 ns    106238157 ns            1
+BM_Boost/32/iterations:1  113693850 ns    113509298 ns            1
+BM_Boost/33/iterations:1  115659746 ns    115528998 ns            1
+BM_Boost/34/iterations:1  121627789 ns    121498804 ns            1
+BM_Boost/35/iterations:1  123845439 ns    123715331 ns            1

@@ -1,0 +1,92 @@
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LegendreTest
+[ RUN      ] LegendreTest.G4LegendrePolynomial_vs_STL
+[       OK ] LegendreTest.G4LegendrePolynomial_vs_STL (5308 ms)
+[----------] 1 test from LegendreTest (5308 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5308 ms total)
+[  PASSED  ] 1 test.
+2025-04-11T12:09:37+02:00
+Running ./build/test_G4LegendrePolynomial
+Run on (8 X 4105.93 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x4)
+  L1 Instruction 32 KiB (x4)
+  L2 Unified 1280 KiB (x4)
+  L3 Unified 8192 KiB (x1)
+Load Average: 1.78, 1.58, 1.57
+----------------------------------------------------------------------------------
+Benchmark                                        Time             CPU   Iterations
+----------------------------------------------------------------------------------
+BM_STL/1/iterations:1                      1430867 ns      1425610 ns            1
+BM_STL/2/iterations:1                      3454211 ns      3427938 ns            1
+BM_STL/3/iterations:1                      4058913 ns      4033667 ns            1
+BM_STL/4/iterations:1                      4857038 ns      4847230 ns            1
+BM_STL/5/iterations:1                      7966725 ns      7952163 ns            1
+BM_STL/6/iterations:1                      9572401 ns      9541250 ns            1
+BM_STL/7/iterations:1                     12873945 ns     12839973 ns            1
+BM_STL/8/iterations:1                     16520560 ns     16457135 ns            1
+BM_STL/9/iterations:1                     18521919 ns     18471121 ns            1
+BM_STL/10/iterations:1                    24367525 ns     24305996 ns            1
+BM_STL/11/iterations:1                    25994706 ns     25947750 ns            1
+BM_STL/12/iterations:1                    29386048 ns     29332546 ns            1
+BM_STL/13/iterations:1                    31655428 ns     31598686 ns            1
+BM_STL/14/iterations:1                    35122548 ns     35071905 ns            1
+BM_STL/15/iterations:1                    39067251 ns     39002845 ns            1
+BM_STL/16/iterations:1                    45838184 ns     45735396 ns            1
+BM_STL/17/iterations:1                    50164844 ns     50080560 ns            1
+BM_STL/18/iterations:1                    57697885 ns     57609285 ns            1
+BM_STL/19/iterations:1                    64412055 ns     64262856 ns            1
+BM_STL/20/iterations:1                    67831795 ns     67687118 ns            1
+BM_STL/21/iterations:1                    70562579 ns     70443567 ns            1
+BM_STL/22/iterations:1                    73891123 ns     73780161 ns            1
+BM_STL/23/iterations:1                    91414703 ns     91109259 ns            1
+BM_STL/24/iterations:1                    84941007 ns     84786762 ns            1
+BM_STL/25/iterations:1                    89233767 ns     89061334 ns            1
+BM_STL/26/iterations:1                    93598745 ns     93425171 ns            1
+BM_STL/27/iterations:1                   101221435 ns    100992994 ns            1
+BM_STL/28/iterations:1                   105006391 ns    104826826 ns            1
+BM_STL/29/iterations:1                   109405160 ns    109247306 ns            1
+BM_STL/30/iterations:1                   119308015 ns    119122732 ns            1
+BM_STL/31/iterations:1                   128783586 ns    128511075 ns            1
+BM_STL/32/iterations:1                   129660880 ns    129454412 ns            1
+BM_STL/33/iterations:1                   136806470 ns    136585588 ns            1
+BM_STL/34/iterations:1                   158984656 ns    158544603 ns            1
+BM_STL/35/iterations:1                   148732531 ns    148475654 ns            1
+BM_G4LegendrePolynomial/1/iterations:1     5216702 ns      5207983 ns            1
+BM_G4LegendrePolynomial/2/iterations:1     6732976 ns      6709041 ns            1
+BM_G4LegendrePolynomial/3/iterations:1     6196455 ns      6181765 ns            1
+BM_G4LegendrePolynomial/4/iterations:1     6538343 ns      6525340 ns            1
+BM_G4LegendrePolynomial/5/iterations:1    15004122 ns     14974563 ns            1
+BM_G4LegendrePolynomial/6/iterations:1    17743751 ns     17706159 ns            1
+BM_G4LegendrePolynomial/7/iterations:1    19898515 ns     19870572 ns            1
+BM_G4LegendrePolynomial/8/iterations:1    25429071 ns     25375469 ns            1
+BM_G4LegendrePolynomial/9/iterations:1    29982611 ns     29905167 ns            1
+BM_G4LegendrePolynomial/10/iterations:1   32735745 ns     32663790 ns            1
+BM_G4LegendrePolynomial/11/iterations:1   38023520 ns     37942707 ns            1
+BM_G4LegendrePolynomial/12/iterations:1   41031338 ns     40953434 ns            1
+BM_G4LegendrePolynomial/13/iterations:1   44223830 ns     44146018 ns            1
+BM_G4LegendrePolynomial/14/iterations:1   47571489 ns     47478412 ns            1
+BM_G4LegendrePolynomial/15/iterations:1   51235476 ns     51148847 ns            1
+BM_G4LegendrePolynomial/16/iterations:1   53406556 ns     53332867 ns            1
+BM_G4LegendrePolynomial/17/iterations:1   59498677 ns     59380042 ns            1
+BM_G4LegendrePolynomial/18/iterations:1   62932954 ns     62805414 ns            1
+BM_G4LegendrePolynomial/19/iterations:1   67271429 ns     67123152 ns            1
+BM_G4LegendrePolynomial/20/iterations:1   69604953 ns     69481803 ns            1
+BM_G4LegendrePolynomial/21/iterations:1   73771221 ns     73613805 ns            1
+BM_G4LegendrePolynomial/22/iterations:1   74533843 ns     74419413 ns            1
+BM_G4LegendrePolynomial/23/iterations:1   77801186 ns     77686186 ns            1
+BM_G4LegendrePolynomial/24/iterations:1   80857007 ns     80746095 ns            1
+BM_G4LegendrePolynomial/25/iterations:1   85920479 ns     85807310 ns            1
+BM_G4LegendrePolynomial/26/iterations:1   90672558 ns     90520878 ns            1
+BM_G4LegendrePolynomial/27/iterations:1   98717786 ns     98536894 ns            1
+BM_G4LegendrePolynomial/28/iterations:1  102294907 ns    102072637 ns            1
+BM_G4LegendrePolynomial/29/iterations:1  127205070 ns    126860584 ns            1
+BM_G4LegendrePolynomial/30/iterations:1  110743954 ns    110527202 ns            1
+BM_G4LegendrePolynomial/31/iterations:1  116848287 ns    116602386 ns            1
+BM_G4LegendrePolynomial/32/iterations:1  119256882 ns    119046141 ns            1
+BM_G4LegendrePolynomial/33/iterations:1  123853710 ns    123642031 ns            1
+BM_G4LegendrePolynomial/34/iterations:1  132779664 ns    132522875 ns            1
+BM_G4LegendrePolynomial/35/iterations:1  138842578 ns    138582886 ns            1

@@ -1,0 +1,99 @@
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LegendreAssociatedTest
+[ RUN      ] LegendreAssociatedTest.G4LegendrePolynomialAssoc_vs_STLAssoc
+/home/alvarotd/work/G4Legendre_benchmark/include/test_G4LegendrePolynomial_assoc.hh:35: Failure
+Expected: (rel_diff) <= (tolerance), actual: 3.22259e-06 vs 1e-06
+Relative difference too large at l,m = 4, 4	x = 0.9999986225055717 (G4LegendrePolynomial: 7.9694251198247912e-10, STL: 7.969450802112451e-10, rel_diff: 3.2225919072154651e-06)
+[  FAILED  ] LegendreAssociatedTest.G4LegendrePolynomialAssoc_vs_STLAssoc (85673 ms)
+[----------] 1 test from LegendreAssociatedTest (85674 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (85674 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] LegendreAssociatedTest.G4LegendrePolynomialAssoc_vs_STLAssoc
+
+ 1 FAILED TEST
+2025-04-11T12:11:18+02:00
+Running ./build/test_G4LegendrePolynomialAssoc
+Run on (8 X 3800.18 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x4)
+  L1 Instruction 32 KiB (x4)
+  L2 Unified 1280 KiB (x4)
+  L3 Unified 8192 KiB (x1)
+Load Average: 2.31, 1.84, 1.67
+----------------------------------------------------------------------------------------
+Benchmark                                              Time             CPU   Iterations
+----------------------------------------------------------------------------------------
+BM_STL_assoc/1/iterations:1                      3985749 ns      3973397 ns            1
+BM_STL_assoc/2/iterations:1                      8155897 ns      8130322 ns            1
+BM_STL_assoc/3/iterations:1                     13728048 ns     13706822 ns            1
+BM_STL_assoc/4/iterations:1                     23989984 ns     23956050 ns            1
+BM_STL_assoc/5/iterations:1                     41951844 ns     41872302 ns            1
+BM_STL_assoc/6/iterations:1                     63418542 ns     63260147 ns            1
+BM_STL_assoc/7/iterations:1                     88116860 ns     87879165 ns            1
+BM_STL_assoc/8/iterations:1                    119751791 ns    119436567 ns            1
+BM_STL_assoc/9/iterations:1                    136024333 ns    135847560 ns            1
+BM_STL_assoc/10/iterations:1                   167114902 ns    166941527 ns            1
+BM_STL_assoc/11/iterations:1                   204019183 ns    203660708 ns            1
+BM_STL_assoc/12/iterations:1                   244841638 ns    244429998 ns            1
+BM_STL_assoc/13/iterations:1                   295903919 ns    295278972 ns            1
+BM_STL_assoc/14/iterations:1                   371660761 ns    370630105 ns            1
+BM_STL_assoc/15/iterations:1                   409699447 ns    408896699 ns            1
+BM_STL_assoc/16/iterations:1                   489460204 ns    488809143 ns            1
+BM_STL_assoc/17/iterations:1                   549079284 ns    548422798 ns            1
+BM_STL_assoc/18/iterations:1                   647638898 ns    646526889 ns            1
+BM_STL_assoc/19/iterations:1                   692586290 ns    691819643 ns            1
+BM_STL_assoc/20/iterations:1                   807833022 ns    806620929 ns            1
+BM_STL_assoc/21/iterations:1                   885643227 ns    884424010 ns            1
+BM_STL_assoc/22/iterations:1                   964006272 ns    962792725 ns            1
+BM_STL_assoc/23/iterations:1                  1059653865 ns   1058299810 ns            1
+BM_STL_assoc/24/iterations:1                  1158165803 ns   1156577425 ns            1
+BM_STL_assoc/25/iterations:1                  1242370300 ns   1240762864 ns            1
+BM_STL_assoc/26/iterations:1                  1330052968 ns   1328616208 ns            1
+BM_STL_assoc/27/iterations:1                  1501948890 ns   1499827877 ns            1
+BM_STL_assoc/28/iterations:1                  1619320119 ns   1616930927 ns            1
+BM_STL_assoc/29/iterations:1                  1722361592 ns   1719685524 ns            1
+BM_STL_assoc/30/iterations:1                  1870561642 ns   1867531079 ns            1
+BM_STL_assoc/31/iterations:1                  2009399710 ns   2005733303 ns            1
+BM_STL_assoc/32/iterations:1                  2221662120 ns   2215464757 ns            1
+BM_STL_assoc/33/iterations:1                  2323486458 ns   2318621286 ns            1
+BM_STL_assoc/34/iterations:1                  2375179100 ns   2372392032 ns            1
+BM_STL_assoc/35/iterations:1                  2532425078 ns   2529455462 ns            1
+BM_G4LegendrePolynomial_assoc/1/iterations:1    11310270 ns     11294677 ns            1
+BM_G4LegendrePolynomial_assoc/2/iterations:1    18253612 ns     18227689 ns            1
+BM_G4LegendrePolynomial_assoc/3/iterations:1    23687364 ns     23654219 ns            1
+BM_G4LegendrePolynomial_assoc/4/iterations:1    29703099 ns     29652273 ns            1
+BM_G4LegendrePolynomial_assoc/5/iterations:1   180532961 ns    180292412 ns            1
+BM_G4LegendrePolynomial_assoc/6/iterations:1   233068552 ns    232793551 ns            1
+BM_G4LegendrePolynomial_assoc/7/iterations:1   290846204 ns    290410753 ns            1
+BM_G4LegendrePolynomial_assoc/8/iterations:1   341355734 ns    340948182 ns            1
+BM_G4LegendrePolynomial_assoc/9/iterations:1   413784203 ns    413273968 ns            1
+BM_G4LegendrePolynomial_assoc/10/iterations:1  469054319 ns    468494419 ns            1
+BM_G4LegendrePolynomial_assoc/11/iterations:1  547772871 ns    547154940 ns            1
+BM_G4LegendrePolynomial_assoc/12/iterations:1  595406443 ns    594866492 ns            1
+BM_G4LegendrePolynomial_assoc/13/iterations:1  682394696 ns    681693027 ns            1
+BM_G4LegendrePolynomial_assoc/14/iterations:1  755471743 ns    754695590 ns            1
+BM_G4LegendrePolynomial_assoc/15/iterations:1  862709789 ns    861456416 ns            1
+BM_G4LegendrePolynomial_assoc/16/iterations:1  958896274 ns    957584231 ns            1
+BM_G4LegendrePolynomial_assoc/17/iterations:1 1069216896 ns   1067636739 ns            1
+BM_G4LegendrePolynomial_assoc/18/iterations:1 1185675093 ns   1184053044 ns            1
+BM_G4LegendrePolynomial_assoc/19/iterations:1 1288152349 ns   1286206937 ns            1
+BM_G4LegendrePolynomial_assoc/20/iterations:1 1416722651 ns   1413914333 ns            1
+BM_G4LegendrePolynomial_assoc/21/iterations:1 1490370414 ns   1488363165 ns            1
+BM_G4LegendrePolynomial_assoc/22/iterations:1 1629865729 ns   1627402950 ns            1
+BM_G4LegendrePolynomial_assoc/23/iterations:1 1711688994 ns   1707325779 ns            1
+BM_G4LegendrePolynomial_assoc/24/iterations:1 1862490850 ns   1858357164 ns            1
+BM_G4LegendrePolynomial_assoc/25/iterations:1 2066832472 ns   2061145828 ns            1
+BM_G4LegendrePolynomial_assoc/26/iterations:1 2143475807 ns   2140735278 ns            1
+BM_G4LegendrePolynomial_assoc/27/iterations:1 2267083736 ns   2264492866 ns            1
+BM_G4LegendrePolynomial_assoc/28/iterations:1 2364670897 ns   2361496594 ns            1
+BM_G4LegendrePolynomial_assoc/29/iterations:1 2534460117 ns   2532057128 ns            1
+BM_G4LegendrePolynomial_assoc/30/iterations:1 2762976862 ns   2759675534 ns            1
+BM_G4LegendrePolynomial_assoc/31/iterations:1 2907628209 ns   2904398031 ns            1
+BM_G4LegendrePolynomial_assoc/32/iterations:1 3212840099 ns   3207619873 ns            1
+BM_G4LegendrePolynomial_assoc/33/iterations:1 3404446070 ns   3398790595 ns            1
+BM_G4LegendrePolynomial_assoc/34/iterations:1 3517234179 ns   3512598014 ns            1
+BM_G4LegendrePolynomial_assoc/35/iterations:1 3699298859 ns   3694212109 ns            1

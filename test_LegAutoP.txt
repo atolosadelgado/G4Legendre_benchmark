@@ -1,0 +1,92 @@
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LegendreTest
+[ RUN      ] LegendreTest.LegAutoP_vs_STL
+[       OK ] LegendreTest.LegAutoP_vs_STL (62 ms)
+[----------] 1 test from LegendreTest (62 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (62 ms total)
+[  PASSED  ] 1 test.
+2025-04-11T12:08:54+02:00
+Running ./build/test_LegAutoP
+Run on (8 X 400 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x4)
+  L1 Instruction 32 KiB (x4)
+  L2 Unified 1280 KiB (x4)
+  L3 Unified 8192 KiB (x1)
+Load Average: 1.35, 1.50, 1.54
+----------------------------------------------------------------------
+Benchmark                            Time             CPU   Iterations
+----------------------------------------------------------------------
+BM_STL/1/iterations:1          1546681 ns      1540328 ns            1
+BM_STL/2/iterations:1          2270899 ns      2267209 ns            1
+BM_STL/3/iterations:1          3093001 ns      3079936 ns            1
+BM_STL/4/iterations:1          4650050 ns      4641509 ns            1
+BM_STL/5/iterations:1          7026595 ns      7007151 ns            1
+BM_STL/6/iterations:1          8767899 ns      8760157 ns            1
+BM_STL/7/iterations:1         11356583 ns     11342323 ns            1
+BM_STL/8/iterations:1         14182780 ns     14169814 ns            1
+BM_STL/9/iterations:1         17070616 ns     17042231 ns            1
+BM_STL/10/iterations:1        20944733 ns     20928403 ns            1
+BM_STL/11/iterations:1        26436828 ns     26395792 ns            1
+BM_STL/12/iterations:1        28845030 ns     28738568 ns            1
+BM_STL/13/iterations:1        29725778 ns     29694083 ns            1
+BM_STL/14/iterations:1        34083308 ns     34035361 ns            1
+BM_STL/15/iterations:1        36997915 ns     36953513 ns            1
+BM_STL/16/iterations:1        40802742 ns     40738224 ns            1
+BM_STL/17/iterations:1        47177273 ns     47107282 ns            1
+BM_STL/18/iterations:1        52766552 ns     52679649 ns            1
+BM_STL/19/iterations:1        59314963 ns     59231906 ns            1
+BM_STL/20/iterations:1        63224751 ns     63161615 ns            1
+BM_STL/21/iterations:1        69510237 ns     69392723 ns            1
+BM_STL/22/iterations:1        71082829 ns     71005714 ns            1
+BM_STL/23/iterations:1        74937118 ns     74840879 ns            1
+BM_STL/24/iterations:1        79139420 ns     79034442 ns            1
+BM_STL/25/iterations:1        83128525 ns     83042891 ns            1
+BM_STL/26/iterations:1        87825656 ns     87714559 ns            1
+BM_STL/27/iterations:1        92784102 ns     92670246 ns            1
+BM_STL/28/iterations:1        99240698 ns     99122277 ns            1
+BM_STL/29/iterations:1       104159974 ns    104059445 ns            1
+BM_STL/30/iterations:1       111427359 ns    111303005 ns            1
+BM_STL/31/iterations:1       116864166 ns    116753677 ns            1
+BM_STL/32/iterations:1       124676500 ns    124535313 ns            1
+BM_STL/33/iterations:1       129917817 ns    129796273 ns            1
+BM_STL/34/iterations:1       136368029 ns    136211810 ns            1
+BM_STL/35/iterations:1       143818134 ns    143652893 ns            1
+BM_LegAutoP/1/iterations:1     2265425 ns      2262542 ns            1
+BM_LegAutoP/2/iterations:1     3288102 ns      3282381 ns            1
+BM_LegAutoP/3/iterations:1     4437232 ns      4426746 ns            1
+BM_LegAutoP/4/iterations:1     5955777 ns      5948778 ns            1
+BM_LegAutoP/5/iterations:1     9939989 ns      9931543 ns            1
+BM_LegAutoP/6/iterations:1    17232369 ns     17206999 ns            1
+BM_LegAutoP/7/iterations:1    28504099 ns     28468157 ns            1
+BM_LegAutoP/8/iterations:1    47428203 ns     47361284 ns            1
+BM_LegAutoP/9/iterations:1    79153255 ns     79059408 ns            1
+BM_LegAutoP/10/iterations:1  132257165 ns    132090272 ns            1
+BM_LegAutoP/11/iterations:1   24802982 ns     24781447 ns            1
+BM_LegAutoP/12/iterations:1   27530883 ns     27494503 ns            1
+BM_LegAutoP/13/iterations:1   30781761 ns     30730538 ns            1
+BM_LegAutoP/14/iterations:1   34330311 ns     34291933 ns            1
+BM_LegAutoP/15/iterations:1   37609003 ns     37565078 ns            1
+BM_LegAutoP/16/iterations:1   43310562 ns     43260811 ns            1
+BM_LegAutoP/17/iterations:1   48812866 ns     48757803 ns            1
+BM_LegAutoP/18/iterations:1   54297420 ns     54224449 ns            1
+BM_LegAutoP/19/iterations:1   59972378 ns     59910548 ns            1
+BM_LegAutoP/20/iterations:1   63655855 ns     63579761 ns            1
+BM_LegAutoP/21/iterations:1   67434764 ns     67363234 ns            1
+BM_LegAutoP/22/iterations:1   71663403 ns     71585401 ns            1
+BM_LegAutoP/23/iterations:1   75594067 ns     75506984 ns            1
+BM_LegAutoP/24/iterations:1   79815998 ns     79705599 ns            1
+BM_LegAutoP/25/iterations:1   83745918 ns     83662600 ns            1
+BM_LegAutoP/26/iterations:1   92954493 ns     92776351 ns            1
+BM_LegAutoP/27/iterations:1   93067416 ns     92950488 ns            1
+BM_LegAutoP/28/iterations:1   98159655 ns     98056004 ns            1
+BM_LegAutoP/29/iterations:1  104635506 ns    104513128 ns            1
+BM_LegAutoP/30/iterations:1  111602602 ns    111482489 ns            1
+BM_LegAutoP/31/iterations:1  117575611 ns    117431482 ns            1
+BM_LegAutoP/32/iterations:1  124171393 ns    124019996 ns            1
+BM_LegAutoP/33/iterations:1  130612693 ns    130465692 ns            1
+BM_LegAutoP/34/iterations:1  136552093 ns    136380411 ns            1
+BM_LegAutoP/35/iterations:1  142698703 ns    142543048 ns            1
