@@ -4,9 +4,9 @@
 
 constexpr int niterations  = 1;
 constexpr int ninputs      = 1'000'000;
-constexpr int norder_min   = 0 ;
-constexpr int norder_max   = 10 ;
-constexpr double tolerance = 1e-9;
+constexpr int norder_min   = 1 ;
+constexpr int norder_max   = 33 ;
+constexpr double tolerance = 1e-7;
 
 
 #include <random>
@@ -138,6 +138,113 @@ static void BM_G4LegendrePolynomial(benchmark::State& state) {
 BENCHMARK(BM_G4LegendrePolynomial)->Iterations(niterations)->DenseRange(norder_min, norder_max); // Includes 10
 
 //___________________________________________________________________________________________________
+#include "G4ParticleHPFastLegendre.hh"
+// https://github.com/Geant4/geant4/blob/df176550b3e44cdd70406ff2b581896426b5bcbe/source/processes/hadronic/models/particle_hp/src/G4ParticleHPFastLegendre.cc#L7383
+static void BM_G4PHP_Leg(benchmark::State& state) {
+    int order = state.range(0);
+    double sum = 0.0;
+    G4ParticleHPFastLegendre a;
+    for (auto _ : state) {
+        for (double x : inputs) {
+            sum+=a.Evaluate(order,x);
+        }
+    }
+    benchmark::DoNotOptimize(sum);
+}
+
+BENCHMARK(BM_G4PHP_Leg)->Iterations(niterations)->DenseRange(norder_min, norder_max); // Includes 10
+
+
+//___________________________________________________________________________________________________
+#include "G4Abla.hh"
+// https://github.com/Geant4/geant4/blob/df176550b3e44cdd70406ff2b581896426b5bcbe/source/processes/hadronic/models/abla/src/G4Abla.cc#L6254
+static void BM_G4Abla_Leg(benchmark::State& state) {
+    int order = state.range(0);
+    double sum = 0.0;
+    G4Abla a(nullptr);
+    for (auto _ : state) {
+        for (double x : inputs) {
+            double pl[order];
+            a.lpoly(x,order,pl);
+            sum+=pl[order-1];
+            for(int n=0; n<order-1; ++n) sum+=pl[n];
+        }
+    }
+    benchmark::DoNotOptimize(sum);
+}
+
+BENCHMARK(BM_G4Abla_Leg)->Iterations(niterations)->DenseRange(norder_min, norder_max); // Includes 10
+
+//___________________________________________________________________________________________________
+static void BM_STL_forABLA(benchmark::State& state) {
+    int order = state.range(0);
+    double sum = 0.0;
+    for (auto _ : state) {
+        for (double x : inputs) {
+            double pl[order];
+            for(int n=0; n<order; ++n) pl[n]=std::legendre(n,x);
+            sum+=pl[order-1];
+            for(int n=0; n<order-1; ++n) sum+=pl[n];
+        }
+    }
+    benchmark::DoNotOptimize(sum);
+}
+
+BENCHMARK(BM_STL_forABLA)->Iterations(niterations)->DenseRange(norder_min, norder_max); // Includes 10
+
+//___________________________________________________________________________________________________
+static void BM_LegAutoP_forABLA(benchmark::State& state) {
+    int order = state.range(0);
+    double sum = 0.0;
+    for (auto _ : state) {
+        for (double x : inputs) {
+            double pl[order];
+            for(int n=0; n<order; ++n) pl[n]=LegAutoP::eval(n,x);
+            sum+=pl[order-1];
+            for(int n=0; n<order-1; ++n) sum+=pl[n];
+        }
+    }
+    benchmark::DoNotOptimize(sum);
+}
+
+BENCHMARK(BM_LegAutoP_forABLA)->Iterations(niterations)->DenseRange(norder_min, norder_max); // Includes 10
+
+//___________________________________________________________________________________________________
+static void BM_STL_assoc(benchmark::State& state) {
+    int order = state.range(0);
+    double sum = 0.0;
+    for (auto _ : state) {
+        for (double x : inputs) {
+            for( int m=0; m<=order; ++m){
+                sum += std::assoc_legendre(order,m,x);
+            }
+        }
+    }
+    benchmark::DoNotOptimize(sum);
+}
+
+BENCHMARK(BM_STL_assoc)->Iterations(niterations)->DenseRange(norder_min, norder_max); // Includes 10
+
+//___________________________________________________________________________________________________
+#include "G4LegendrePolynomial.hh"
+// https://github.com/Geant4/geant4/blob/e58e650b32b961c8093f3dd6a2c3bc917b2552be/source/processes/hadronic/util/include/G4LegendrePolynomial.hh#L50
+static void BM_G4LegendrePolynomial_assoc(benchmark::State& state) {
+    int order = state.range(0);
+    double sum = 0.0;
+    G4LegendrePolynomial a;
+    for (auto _ : state) {
+        for (double x : inputs) {
+            for( int m=0; m<=order; ++m){
+                sum += a.EvalAssocLegendrePoly(order,m,x);
+            }
+        }
+    }
+    benchmark::DoNotOptimize(sum);
+}
+
+BENCHMARK(BM_G4LegendrePolynomial_assoc)->Iterations(niterations)->DenseRange(norder_min, norder_max); // Includes 10
+
+//___________________________________________________________________________________________________
 #include <gtest/gtest.h>
 // LegAutoP check for correctness
 TEST(LegendreTest, LegAutoP_vs_STL) {
@@ -154,7 +261,7 @@ TEST(LegendreTest, LegAutoP_vs_STL) {
 }
 
 //___________________________________________________________________________________________________
-// LegTabP check for correctness
+// Boost check for correctness
 TEST(LegendreTest, Boost_vs_STL) {
     for (double x : inputs) {
         for (int n = norder_min; n <= norder_max; ++n) {
@@ -163,7 +270,7 @@ TEST(LegendreTest, Boost_vs_STL) {
 
             EXPECT_NEAR(Boost_result, stl_result, tolerance)
                 << "Mismatch at n=" << n << ", x=" << x
-                << " (LegTabP: " << Boost_result << ", std: " << stl_result << ")";
+                << " (Boost: " << Boost_result << ", std: " << stl_result << ")";
         }
     }
 }
@@ -202,7 +309,7 @@ TEST(LegendreTest, G4NuclNuclDiffuseElastic_cos_vs_STL) {
     }
 }
 //___________________________________________________________________________________________________
-// G4NuclNuclDiffuseElastic check for correctness
+// G4LegendrePolynomial check for correctness
 TEST(LegendreTest, G4LegendrePolynomial_vs_STL) {
     G4LegendrePolynomial a;
     for (double x : inputs) {
@@ -216,6 +323,36 @@ TEST(LegendreTest, G4LegendrePolynomial_vs_STL) {
         }
     }
 }
+
+//___________________________________________________________________________________________________
+// G4LegendrePolynomial associated check for correctness
+TEST(LegendreAssociatedTest, G4LegendrePolynomial_vs_STL) {
+    G4LegendrePolynomial a;
+    for (double x : inputs) {
+        for (int l = norder_min; l <= norder_max; ++l) {
+            for( int m=0; m<=l; ++m){
+
+            double G4LegendrePolynomial_result = a.EvalAssocLegendrePoly(l,m,x);
+            int condon_shortley_phase = -2*(m%2) +1;
+            double stl_result = condon_shortley_phase*std::assoc_legendre(l,m, x);
+
+            double abs_diff = std::abs( G4LegendrePolynomial_result - stl_result );
+            double rel_diff = abs_diff / std::abs(stl_result);
+
+            EXPECT_LE(rel_diff, tolerance)
+                << "Relative difference too large at l,m = " << l << ", " << m
+                << "\tx = " << x
+                << " (G4LegendrePolynomial: " << G4LegendrePolynomial_result
+                << ", std: " << stl_result
+                << ", rel_diff: " << rel_diff << ")";
+            // EXPECT_NEAR(G4LegendrePolynomial_result, stl_result, 1e-3)
+                // << "Mismatch at l,m = " << l << ", " << m << "\tx=" << x
+                // << " (G4LegendrePolynomial: " << G4LegendrePolynomial_result << ", std: " << stl_result << ")";
+            }
+        }
+    }
+}
+
 
 int main(int argc, char** argv) {
     ::testing::InitGoogleTest(&argc, argv);

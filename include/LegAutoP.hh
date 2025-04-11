@@ -7,18 +7,18 @@ namespace LegAutoP{
 
 // Recursive constexpr Legendre polynomial
 template <int N>
-constexpr double LegAutoP(double x) {
+double LegAutoP(double x) {
     return ((2 * N - 1) * x * LegAutoP<N - 1>(x) - (N - 1) * LegAutoP<N - 2>(x)) / N;
 }
 
 // Base cases
 template <>
-constexpr double LegAutoP<0>(double x) {
+double LegAutoP<0>(double x) {
     return 1.0;
 }
 
 template <>
-constexpr double LegAutoP<1>(double x) {
+double LegAutoP<1>(double x) {
     return x;
 }
 
