@@ -2,6 +2,10 @@
 
 # switch to performance to avoid cpu scaling
 #sudo cpupower frequency-set -g performance
+# check governor service with:
+# cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+# to return to default in laptop
+# sudo cpupower frequency-set -g powersave
 
 # List of executables
 executables=(
