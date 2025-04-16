@@ -51,4 +51,5 @@ add_executable(test_G4PHPFastLegendre         src/test_G4PHPFastLegendre.cc)
 add_executable(test_G4NuclNuclDiffuseElastic  src/test_G4NuclNuclDiffuseElastic.cc)
 add_executable(test_G4LegendrePolynomial      src/test_G4LegendrePolynomial.cc)
 add_executable(test_G4LegendrePolynomialAssoc src/test_G4LegendrePolynomialAssoc.cc)
+add_executable(test_G4ABLA                    src/test_G4ABLA.cc)
 
